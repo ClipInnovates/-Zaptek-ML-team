@@ -1,0 +1,33 @@
+{
+  "regressor_name": "Random Forest",
+  "feature_names": [
+    "enrichment_percent",
+    "fuel_density",
+    "moderator_density"
+  ],
+  "status_thresholds": {
+    "subcritical_max": 0.95,
+    "supercritical_min": 1.05
+  },
+  "metrics": {
+    "regressor_r2": 0.997719652243227,
+    "regressor_rmse": 0.0022720327711553885,
+    "classifier_accuracy": 0.99
+  },
+  "training_data_range": {
+    "enrichment_percent": [
+      2.0,
+      5.0
+    ],
+    "fuel_density": [
+      9.80011214652261,
+      10.5999875387577
+    ],
+    "moderator_density": [
+      0.950006230524117,
+      1.05
+    ]
+  },
+  "sklearn_version": "1.9.1",
+  "trained_at_utc": "2026-09-17T01:25:45.119261+00:00"
+}
