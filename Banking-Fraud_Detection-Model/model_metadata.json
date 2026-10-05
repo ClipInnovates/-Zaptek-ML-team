@@ -1,0 +1,91 @@
+{
+  "model_name": "Random Forest Classifier",
+  "model_version": "1.0.0",
+  "feature_names": [
+    "step",
+    "customer",
+    "age",
+    "gender",
+    "merchant",
+    "category",
+    "amount"
+  ],
+  "categorical_features": [
+    "customer",
+    "age",
+    "gender",
+    "merchant",
+    "category"
+  ],
+  "numerical_features": [
+    "step",
+    "amount"
+  ],
+  "decision_threshold": 0.5,
+  "allowed_values": {
+    "age": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "U"
+    ],
+    "gender": [
+      "E",
+      "F",
+      "M",
+      "U"
+    ],
+    "category": [
+      "es_barsandrestaurants",
+      "es_contents",
+      "es_fashion",
+      "es_food",
+      "es_health",
+      "es_home",
+      "es_hotelservices",
+      "es_hyper",
+      "es_leisure",
+      "es_otherservices",
+      "es_sportsandtoys",
+      "es_tech",
+      "es_transportation",
+      "es_travel",
+      "es_wellnessandbeauty"
+    ]
+  },
+  "training_data_range": {
+    "step": [
+      0,
+      179
+    ],
+    "amount": [
+      0.0,
+      8329.96
+    ]
+  },
+  "metrics": {
+    "roc_auc": 0.9961,
+    "fraud_precision": 0.2265,
+    "fraud_recall": 0.9833,
+    "fraud_f1": 0.3682,
+    "accuracy": 0.9591,
+    "confusion_matrix": [
+      [
+        168979,
+        7254
+      ],
+      [
+        36,
+        2124
+      ]
+    ],
+    "test_size": 178393
+  },
+  "sklearn_version": "1.9.1",
+  "pandas_version": "3.0.2",
+  "trained_at_utc": "2026-10-05T16:34:55.766281+00:00"
+}
