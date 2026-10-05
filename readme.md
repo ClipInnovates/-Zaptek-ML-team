@@ -17,7 +17,7 @@ We need to make use of just two fields :
 1. total SMS = Number of SMS received and sent
 2. total calls = Number of calls received and sent
 
-## Steps In accessing the data:
+## Steps In accessing the data: 
 
 1. The provided data is titled "working_dataset.csv" and this can be found in the Regression folder
 2. Access or download just the csv file, familiarize yourself with it using excel or pandas.
